@@ -1,0 +1,47 @@
+.row {
+    display: flex;
+}
+
+.column-left {
+    flex: 20%;
+    padding: 0;
+    border-right: 1px solid rgba(0, 22, 22, 0.4);
+    margin-right: 55px;
+ 
+}
+ul{
+    padding: 0%;
+}
+.colum-left h1 {
+     
+color: black;
+margin: 20px;
+text-align: center;
+font-size: 1.8em;
+}
+
+.programe{
+   background-color: #f7f7f7;
+   position: relative;
+   text-align: left;
+   height: 55px;
+   margin:10px;
+   padding:15px;
+}
+.column-right {
+    flex: 80%;
+}
+
+.column-left ul li {
+    list-style: none;
+}
+.circle{
+    list-style-type: circle;
+}
+.scroll{
+    max-width: 300px;
+    max-height: 522px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
